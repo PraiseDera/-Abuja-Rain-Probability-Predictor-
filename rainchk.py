@@ -46,7 +46,6 @@ if st.button("Predict Rain Probability"):
 
     elif probability > 40:
         st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWQ3Nzd3bGQydWxyMDhpcHNoaWxqbWRxa252cTlqdm8zaHdjZ3FodyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gk3s6G7AdUNkey0YpE/giphy.gif")
-        st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmduaTJhM2txdTB3bGRkZDYycGloMWl0aG9naTBtdng5cHg0ZGFrcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/20GWyPuk6adsHlutWR/giphy.gif")
         st.info(f"It will be Cloudy/Windy with a chance of rain on {date_str}.⛅")
 
 
@@ -56,4 +55,5 @@ if st.button("Predict Rain Probability"):
 
 
 st.markdown("This is Praise's Weather Prediction Project in DCH")
+
 
